@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import img from './1.webp'
+import img from './1.webp';
+import {Link} from 'react-router-dom';
 function Home() {
   return (
     <div className="App">
@@ -81,7 +82,7 @@ don't worry we are here"WELECTRIC"
 </div>
 <div class='leaseBtn'>
     <center>
-<button class='btns_more'><a href='./desc' style={{color: '#BF307F',}}>Lease Electric Two Wheeler</a> </button></center>
+<button class='btns_more'><Link to='/desc'>Lease Electric Two Wheeler</Link> </button></center>
     </div>
     </div>
   );
